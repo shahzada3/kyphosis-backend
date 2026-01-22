@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-data=pd.read_csv(r"/content/kyphosis.csv")
+data=pd.read_csv(r"kyphosis.csv")
 print(data)
 
 print(data.head())
